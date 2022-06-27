@@ -116,3 +116,32 @@ button {
     border: 4px solid #3882F6;
     border-radius: 10px;
 }
+
+/*third portion*/
+.third_portion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 40px 0;
+}
+
+.quote {
+    width: 830px;
+    margin: 120px 0;
+}
+
+.quote p {
+    margin: 0;
+}
+.quote .author {
+    display: flex;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-end;
+    margin-right: 52px;
+}
